@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .upcontainer{
+            background-color: #131313;
+            height: 80px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;
+            position: sticky;
+            top: 0;
+            z-index: 999;
+            
+        }
+        .back{
+            text-decoration: none;
+            background-image: linear-gradient(to bottom, #f8eef1 0%, #221d1aee 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .signup{
+            width: 300px;
+            box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+            padding: 20px;
+            margin: 8% auto 0;
+            text-align: center;
+            background-color: #131313;
+        }
+        .signup p{
+            color: white;
+        }
+        .signup h1{
+            color: white;
+            margin-bottom: 30px;
+        }
+        .inputbox{
+            border-radius: 20px;
+            padding: 10px;
+            margin: 10px 0;
+            width: 100%;
+            border: 1px solid blueviolet;
+            outline: none;
+        }
+        button{
+            color: #fff;
+            width: 100%;
+            padding: 10px;
+            border-radius: 20px;
+            font-size: 15px;
+            margin: 10px 0;
+            border: none;
+            outline: none;
+            cursor: pointer;
+        }
+        .signbtn{
+            background-color: rgb(113, 113, 177);
+        }
+        
+        a{
+            text-decoration: none;
+        }
+        .or{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="upcontainer">
+        <div class="up">
+            <a href="index.html" class="back">BACK</a>
+        </div>
+    </div>
+    <div class="signup">
+        <h1>Sign Up</h1>
+        <form>
+        <input type="name" class="inputbox" placeholder="Your Name">
+        <input type="password" class="inputbox" placeholder="Your password">
+        <p><span><input type="checkbox"></span>I Agree To The Terms of Services</p>
+        <button type="button" class="signbtn"><a href="index.html">Sign Up</a></button>
+        
+        </form>
+    </div>
+</body>
+</html>
